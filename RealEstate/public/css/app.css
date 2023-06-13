@@ -1,0 +1,74 @@
+.b {
+    background-color: aqua";
+}
+.body {
+    background-color: aqua;
+}
+.head-links {
+    margin: 10px;
+}
+.my-form {
+    padding:2%;
+    width:80%;
+    color:blue
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>col[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.post-container {
+    margin-bottom: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height:330px;
+    padding:0%"
+
+}
+.post-div {
+    border:solid 1px blue;
+    background-color:lightblue;
+    width:80%;
+    padding: 0px;
+}
+.sm {
+    font-size: 80%;
+}
+.dropbtn {
+    background-color: aliceblue;
+    color: aqua;
+    padding: 16px;
+    font-size: 16px;
+    border:none
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: aqua;
+}
+.second-menu{
+    margin:40px;
+    margin-right: auto;
+    margin-left: auto;
+}
