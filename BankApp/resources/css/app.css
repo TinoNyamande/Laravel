@@ -1,0 +1,43 @@
+.mynavbar {
+    background-color: greenyellow;
+    width: 80%;
+    height: 20px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.mynavbar a {
+    padding: 5%;
+}
+.mynavbar a:hover {
+    box-shadow: 1px 3px 5px green;
+}
+.auth {
+    background-color: greenyellow;
+    width: 20%;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    color:black ;
+    min-width: 400px;
+}
+.mylink {
+    padding: 5%;
+    text-decoration: none;
+}
+.mylink:hover {
+    box-shadow: 1px 3px 5px green;
+}
+.myform {
+    margin: 5%;
+    background-color: greenyellow;
+    padding: 5%;
+}
+.dashboard {
+    color: greenyellow;
+    margin: 3%;
+}
